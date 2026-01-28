@@ -1,0 +1,9 @@
+{
+  "name": "stratus-reasoning",
+  "description": "Stratus X1 T-JEPA reasoning integration for counting, logic, math, long-context analysis, and multi-step plan validation",
+  "version": "1.1.0",
+  "author": {
+    "name": "Formation",
+    "email": "team@formation.cloud"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@formation/stratus-reasoning-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Stratus X1 reasoning integration",
+  "type": "module",
+  "main": "dist/stratus-server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/stratus-server.js",
+    "setup": "tsc && node dist/setup.js",
+    "health": "node dist/health-check.js",
+    "status": "node dist/health-check.js"
+  },
+  "keywords": ["mcp", "stratus", "reasoning", "claude-code"],
+  "author": "Formation <team@formation.cloud>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "openai": "^4.73.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  }
+}

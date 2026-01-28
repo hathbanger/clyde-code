@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "stratus-reasoning": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp-server/dist/stratus-server.js"],
+      "env": {
+        "STRATUS_API_KEY": "${STRATUS_API_KEY}",
+        "STRATUS_API_URL": "${STRATUS_API_URL:-http://212.115.124.137:8000}",
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      }
+    }
+  }
+}
